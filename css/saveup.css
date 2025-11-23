@@ -1,0 +1,110 @@
+/* GENERAL PAGE SETTINGS */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b17;
+    font-family: Arial, sans-serif;
+    color: #e6e3f5;
+}
+
+/* TOP BAR */
+.topbar {
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+}
+
+.back-btn {
+    color: #c9b8ff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.2s;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.back-btn:hover {
+    background: rgba(100, 78, 204, 0.25);
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px 60px;
+}
+
+/* TITLES */
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.subtitle {
+    color: #bfbadb;
+    margin-bottom: 40px;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 50px;
+}
+
+.section h2 {
+    color: #c29fff;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.section p,
+.section ul {
+    line-height: 1.7;
+    font-size: 1.05rem;
+    color: #dcd7f0;
+}
+
+.section ul li {
+    margin-bottom: 6px;
+}
+
+/* IMAGES */
+.case-img {
+    width: 80%;              /* smaller size */
+    max-width: 400px;        /* prevents huge scaling */
+    display: block;
+    margin: 20px auto;       /* center it */
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(120, 80, 255, 0.25);
+    transition: 0.3s ease;
+}
+
+/* Optional: hover effect */
+.case-img:hover {
+    transform: scale(1.015);
+    box-shadow: 0 0 30px rgba(120, 80, 255, 0.35);
+}
+
+
+/* BUTTON */
+.link-btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #8254ff;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.link-btn:hover {
+    background: #a174ff;
+    transform: translateY(-2px);
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 80px;
+    text-align: center;
+    color: #8b7cb6;
+    font-size: 0.9rem;
+}
